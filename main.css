@@ -1,0 +1,43 @@
+ /* Added style to the body tag */
+ body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(37, 78, 46);
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Added styles to the h1 tag */
+h1{
+    color: cadetblue;
+    font-size: 2.5em;
+    margin-bottom: 25px;
+}
+/* Added styles to the div tag */
+div{
+    color: rgb(77, 176, 196);
+    background-color: rgb(226, 226, 24);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(26, 68, 74, .6);
+}
+
+/* These styles will apply to mobile devices */
+@media (max-width:600px){
+    body{
+        padding: 10px;
+    }
+    /* added chenges to the div */
+    div{
+        width: 100%;
+        margin: 5px;
+    }
+    /* Added changes to the h1 makes it readable on a mobile device */
+    h1{
+        font-size: 2em;
+    }
+
+}
